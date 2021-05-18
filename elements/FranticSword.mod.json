@@ -3,28 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "vampiresword",
+    "texture": "franticsword",
     "customModelName": "Normal",
-    "name": "Vampire Sword",
+    "name": "Frantic Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.6,
-    "enchantability": 22,
-    "damageVsEntity": 6.0,
-    "usageCount": 100,
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 3.5,
+    "enchantability": 12,
+    "damageVsEntity": 3.0,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "VampireSwordLifeSteal"
-    }
+    "damageOnCrafting": false
   }
 }

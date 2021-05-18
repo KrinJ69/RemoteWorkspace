@@ -10,35 +10,35 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
 
-import net.mcreator.aggregate.procedures.VampireSwordLifeStealProcedure;
+import net.mcreator.aggregate.procedures.LivingSwordToolInHandTickProcedure;
 import net.mcreator.aggregate.AggregateModElements;
 
 import java.util.Map;
 import java.util.HashMap;
 
 @AggregateModElements.ModElement.Tag
-public class VampireSwordItem extends AggregateModElements.ModElement {
-	@ObjectHolder("aggregate:vampire_sword")
+public class LivingSwordItem extends AggregateModElements.ModElement {
+	@ObjectHolder("aggregate:living_sword")
 	public static final Item block = null;
-	public VampireSwordItem(AggregateModElements instance) {
-		super(instance, 21);
+	public LivingSwordItem(AggregateModElements instance) {
+		super(instance, 23);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 3000;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 10f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class VampireSwordItem extends AggregateModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 22;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -54,19 +54,17 @@ public class VampireSwordItem extends AggregateModElements.ModElement {
 			}
 		}, 3, -2.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
-			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
+			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+				super.inventoryTick(itemstack, world, entity, slot, selected);
 				double x = entity.getPosX();
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
-				World world = entity.world;
-				{
+				if (selected) {
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					VampireSwordLifeStealProcedure.executeProcedure($_dependencies);
+					LivingSwordToolInHandTickProcedure.executeProcedure($_dependencies);
 				}
-				return retval;
 			}
-		}.setRegistryName("vampire_sword"));
+		}.setRegistryName("living_sword"));
 	}
 }

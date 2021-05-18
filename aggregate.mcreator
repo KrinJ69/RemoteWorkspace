@@ -212,6 +212,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "FranticSword",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frantic_sword"
+    },
+    {
+      "name": "LivingSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "living_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LivingSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "living_sword"
     }
   ],
   "variable_elements": [],
@@ -221,6 +256,7 @@
       "item.aggregate.steel_armor_boots": "Steel Boots",
       "item.aggregate.steel_axe": "Steel Axe",
       "item.aggregate.steel_sword": "Steel Sword",
+      "item.aggregate.frantic_sword": "Frantic Sword",
       "item.aggregate.steel_ingot": "Steel Ingot",
       "item.aggregate.steel_shovel": "Steel Shovel",
       "item.aggregate.steel_armor_chestplate": "Steel Chestplate",
@@ -228,6 +264,7 @@
       "block.aggregate.steel_block": "Steel Block",
       "item.aggregate.steel_pickaxe": "Steel Pickaxe",
       "item.aggregate.vampire_sword": "Vampire Sword",
+      "item.aggregate.living_sword": "Living Sword",
       "item.aggregate.steel_armor_helmet": "Steel Helmet",
       "item.aggregate.steel_armor_leggings": "Steel Leggings"
     }
