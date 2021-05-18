@@ -1,10 +1,12 @@
 {
+  "item.aggregate.eternity_armor_armor_boots": "Eternity Boots",
   "item.aggregate.steel_axe": "Steel Axe",
   "itemGroup.tabaggregate_items": "Aggregate Items",
   "item.aggregate.soul_of_light": "Soul Of Light",
   "item.aggregate.clamor": "Clamor",
   "item.aggregate.steel_sword": "Steel Sword",
   "itemGroup.tabaggregate_tools": "Aggregate Tools",
+  "item.aggregate.flame_pickaxe": "Flame Pickaxe",
   "item.aggregate.frantic_sword": "Frantic Sword",
   "item.aggregate.steel_shovel": "Steel Shovel",
   "item.aggregate.steel_armor_chestplate": "Steel Chestplate",
@@ -21,6 +23,8 @@
   "item.aggregate.soul_of_darkness": "Soul Of Darkness",
   "item.aggregate.wrath": "Wrath",
   "item.aggregate.reaper": "Reaper",
+  "item.aggregate.speed_pickaxe": "Speed Pickaxe",
+  "item.aggregate.eternity_armor_armor_chestplate": "Eternity Chestplate",
   "itemGroup.tabaggregate_blocks": "Aggregate Blocks",
   "item.aggregate.brisk": "Brisk",
   "item.aggregate.steel_ingot": "Steel Ingot",
@@ -28,8 +32,10 @@
   "item.aggregate.sidious": "Sidious",
   "item.aggregate.magical_essence": "Magical Essence",
   "item.aggregate.bottle_with_essence": "Bottle With Essence",
+  "item.aggregate.eternity_armor_armor_helmet": "Eternity Helmet",
   "block.aggregate.steel_block": "Steel Block",
   "itemGroup.tabaggregate_armors": "Aggregate Combat",
+  "item.aggregate.eternity_armor_armor_leggings": "Eternity Leggings",
   "item.aggregate.soul_of_speed": "Soul Of Speed",
   "item.aggregate.soul_of_eternity": "Soul Of Eternity"
 }
