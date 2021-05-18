@@ -200,7 +200,7 @@
       "name": "VampireSwordLifeSteal",
       "type": "procedure",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "vampire_sword_life_steal",
