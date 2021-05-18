@@ -135,18 +135,73 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_block_recipe_2"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_helmet_recipe"
+    },
+    {
+      "name": "SteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_body_recipe"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_leggings_recipe"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.aggregate.steel_armor_boots": "Steel Boots",
       "item.aggregate.steel_shovel": "Steel Shovel",
+      "item.aggregate.steel_armor_chestplate": "Steel Chestplate",
       "item.aggregate.steel_axe": "Steel Axe",
       "item.aggregate.steel_hoe": "Steel Hoe",
       "block.aggregate.steel_block": "Steel Block",
       "item.aggregate.steel_pickaxe": "Steel Pickaxe",
       "item.aggregate.steel_sword": "Steel Sword",
+      "item.aggregate.steel_armor_helmet": "Steel Helmet",
+      "item.aggregate.steel_armor_leggings": "Steel Leggings",
       "item.aggregate.steel_ingot": "Steel Ingot"
     }
   },
@@ -157,8 +212,8 @@
   "workspaceSettings": {
     "modid": "aggregate",
     "modName": "Aggregate",
-    "version": "1.0.0",
-    "author": "User, MCreator",
+    "version": "1.0.1",
+    "author": "KrinJ, pcmrveteran",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -168,6 +223,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.aggregate",
     "lockBaseModFiles": false
   },
