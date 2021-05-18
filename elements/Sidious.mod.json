@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "sidious",
+    "texture": "sidiousgif",
     "customModelName": "Normal",
     "name": "Sidious",
     "specialInfo": [],
@@ -23,6 +23,12 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SidiousRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "SidiousRightClickedInAir"
+    },
     "onEntityHitWith": {
       "name": "SidiousLivingEntityIsHitWithTool"
     }

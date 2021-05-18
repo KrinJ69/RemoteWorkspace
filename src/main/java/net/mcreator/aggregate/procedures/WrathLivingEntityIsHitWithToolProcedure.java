@@ -14,7 +14,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class WrathLivingEntityIsHitWithToolProcedure extends AggregateModElements.ModElement {
 	public WrathLivingEntityIsHitWithToolProcedure(AggregateModElements instance) {
-		super(instance, 42);
+		super(instance, 57);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -26,6 +26,6 @@ public class WrathLivingEntityIsHitWithToolProcedure extends AggregateModElement
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 80, (int) 2));
-		entity.attackEntityFrom(DamageSource.WITHER, (float) 4);
+		entity.attackEntityFrom(DamageSource.GENERIC, (float) 4);
 	}
 }

@@ -16,7 +16,7 @@ public class GiantSwordItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:giant_sword")
 	public static final Item block = null;
 	public GiantSwordItem(AggregateModElements instance) {
-		super(instance, 40);
+		super(instance, 22);
 	}
 
 	@Override

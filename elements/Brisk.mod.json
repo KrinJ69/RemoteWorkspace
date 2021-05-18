@@ -22,12 +22,6 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "BriskLivingEntityIsHitWithTool"
-    },
-    "onItemInUseTick": {
-      "name": "BriskToolInHandTick"
-    }
+    "damageOnCrafting": false
   }
 }
