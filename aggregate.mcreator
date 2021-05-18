@@ -713,18 +713,170 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "reaper"
+    },
+    {
+      "name": "EternityArmorArmor",
+      "type": "armor",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternity_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EternityArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternity_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "EternityArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternity_armor_armor_body_recipe"
+    },
+    {
+      "name": "EternityArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternity_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "EternityArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternity_armor_armor_boots_recipe"
+    },
+    {
+      "name": "EternityArmorArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternity_armor_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlamePickaxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_pickaxe"
+    },
+    {
+      "name": "SpeedPickaxeToolInHandTick",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_pickaxe_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedPickaxe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_pickaxe"
+    },
+    {
+      "name": "FlamePickaxeRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_pickaxe_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlamePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_pickaxe_recipe"
+    },
+    {
+      "name": "SpeedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_pickaxe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.aggregate.eternity_armor_armor_boots": "Eternity Boots",
       "item.aggregate.steel_axe": "Steel Axe",
       "itemGroup.tabaggregate_items": "Aggregate Items",
       "item.aggregate.soul_of_light": "Soul Of Light",
       "item.aggregate.clamor": "Clamor",
       "item.aggregate.steel_sword": "Steel Sword",
       "itemGroup.tabaggregate_tools": "Aggregate Tools",
+      "item.aggregate.flame_pickaxe": "Flame Pickaxe",
       "item.aggregate.frantic_sword": "Frantic Sword",
       "item.aggregate.steel_shovel": "Steel Shovel",
       "item.aggregate.steel_armor_chestplate": "Steel Chestplate",
@@ -741,6 +893,8 @@
       "item.aggregate.soul_of_darkness": "Soul Of Darkness",
       "item.aggregate.wrath": "Wrath",
       "item.aggregate.reaper": "Reaper",
+      "item.aggregate.speed_pickaxe": "Speed Pickaxe",
+      "item.aggregate.eternity_armor_armor_chestplate": "Eternity Chestplate",
       "itemGroup.tabaggregate_blocks": "Aggregate Blocks",
       "item.aggregate.brisk": "Brisk",
       "item.aggregate.steel_ingot": "Steel Ingot",
@@ -748,8 +902,10 @@
       "item.aggregate.sidious": "Sidious",
       "item.aggregate.magical_essence": "Magical Essence",
       "item.aggregate.bottle_with_essence": "Bottle With Essence",
+      "item.aggregate.eternity_armor_armor_helmet": "Eternity Helmet",
       "block.aggregate.steel_block": "Steel Block",
       "itemGroup.tabaggregate_armors": "Aggregate Combat",
+      "item.aggregate.eternity_armor_armor_leggings": "Eternity Leggings",
       "item.aggregate.soul_of_speed": "Soul Of Speed",
       "item.aggregate.soul_of_eternity": "Soul Of Eternity"
     }

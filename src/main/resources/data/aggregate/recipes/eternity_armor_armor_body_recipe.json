@@ -1,0 +1,39 @@
+{
+  "group": "aggregate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aggregate:soul_of_eternity"
+    },
+    "2": {
+      "item": "aggregate:soul_of_eternity"
+    },
+    "3": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "4": {
+      "item": "aggregate:soul_of_eternity"
+    },
+    "5": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "6": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "7": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "8": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "aggregate:eternity_armor_armor_chestplate",
+    "count": 1
+  }
+}

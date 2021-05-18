@@ -1,0 +1,29 @@
+{
+  "group": "aggregate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aggregate:soul_of_eternity"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "aggregate:soul_of_eternity"
+    },
+    "3": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "aggregate:eternity_armor_armor_helmet",
+    "count": 1
+  }
+}
