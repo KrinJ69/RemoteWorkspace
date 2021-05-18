@@ -186,60 +186,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_boots_recipe"
-    },
-    {
-      "name": "HardnedIron",
-      "type": "item",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hardned_iron"
-    },
-    {
-      "name": "HardenedSteel",
-      "type": "item",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hardened_steel"
-    },
-    {
-      "name": "HardenedSteelRecipe",
-      "type": "recipe",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hardened_steel_recipe"
-    },
-    {
-      "name": "HardenedIronRecipe",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hardened_iron_recipe"
-    },
-    {
-      "name": "HardenedIronSword",
-      "type": "tool",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hardened_iron_sword"
-    },
-    {
-      "name": "HardenedIronSwordRecipe",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hardened_iron_sword_recipe"
     }
   ],
   "variable_elements": [],
@@ -249,12 +195,9 @@
       "item.aggregate.steel_armor_boots": "Steel Boots",
       "item.aggregate.steel_axe": "Steel Axe",
       "item.aggregate.steel_sword": "Steel Sword",
-      "item.aggregate.hardened_steel": "Hardened Steel",
       "item.aggregate.steel_ingot": "Steel Ingot",
       "item.aggregate.steel_shovel": "Steel Shovel",
       "item.aggregate.steel_armor_chestplate": "Steel Chestplate",
-      "item.aggregate.hardned_iron": "Hardened Iron",
-      "item.aggregate.hardened_iron_sword": "Hardened Iron Sword",
       "item.aggregate.steel_hoe": "Steel Hoe",
       "block.aggregate.steel_block": "Steel Block",
       "item.aggregate.steel_pickaxe": "Steel Pickaxe",
