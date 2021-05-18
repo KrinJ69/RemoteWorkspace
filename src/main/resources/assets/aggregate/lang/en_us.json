@@ -20,7 +20,9 @@
   "item.aggregate.steel_armor_boots": "Steel Boots",
   "item.aggregate.soul_of_darkness": "Soul Of Darkness",
   "item.aggregate.wrath": "Wrath",
+  "item.aggregate.reaper": "Reaper",
   "itemGroup.tabaggregate_blocks": "Aggregate Blocks",
+  "item.aggregate.brisk": "Brisk",
   "item.aggregate.steel_ingot": "Steel Ingot",
   "item.aggregate.soul_of_flame": "Soul Of Flame",
   "item.aggregate.sidious": "Sidious",
@@ -28,5 +30,6 @@
   "item.aggregate.bottle_with_essence": "Bottle With Essence",
   "block.aggregate.steel_block": "Steel Block",
   "itemGroup.tabaggregate_armors": "Aggregate Combat",
+  "item.aggregate.soul_of_speed": "Soul Of Speed",
   "item.aggregate.soul_of_eternity": "Soul Of Eternity"
 }

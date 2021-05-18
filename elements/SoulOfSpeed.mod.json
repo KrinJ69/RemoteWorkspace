@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "soulofeternity",
+    "texture": "soulofspeed",
     "customModelName": "Normal",
-    "name": "Soul Of Eternity",
+    "name": "Soul Of Speed",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:AggregateItems"

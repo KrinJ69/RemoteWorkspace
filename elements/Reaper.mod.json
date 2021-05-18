@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "placeholder",
+    "customModelName": "Normal",
+    "name": "Reaper",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AggregateArmors"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 20.0,
+    "attackSpeed": 3.5,
+    "enchantability": 20,
+    "damageVsEntity": 14.0,
+    "usageCount": 4101,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ReaperLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "ReaperToolInHandTick"
+    }
+  }
+}

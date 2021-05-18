@@ -10,8 +10,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
 
-import net.mcreator.aggregate.procedures.VampireSwordLifeStealProcedure;
+import net.mcreator.aggregate.procedures.BriskToolInHandTickProcedure;
+import net.mcreator.aggregate.procedures.BriskLivingEntityIsHitWithToolProcedure;
 import net.mcreator.aggregate.itemgroup.AggregateArmorsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
@@ -19,40 +21,40 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AggregateModElements.ModElement.Tag
-public class VampireSwordItem extends AggregateModElements.ModElement {
-	@ObjectHolder("aggregate:vampire_sword")
+public class BriskItem extends AggregateModElements.ModElement {
+	@ObjectHolder("aggregate:brisk")
 	public static final Item block = null;
-	public VampireSwordItem(AggregateModElements instance) {
-		super(instance, 8);
+	public BriskItem(AggregateModElements instance) {
+		super(instance, 50);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 2561;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 9f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 2.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 3;
 			}
 
 			public int getEnchantability() {
-				return 22;
+				return 12;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.4f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
+		}, 3, -0.5f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
@@ -62,11 +64,24 @@ public class VampireSwordItem extends AggregateModElements.ModElement {
 				World world = entity.world;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("sourceentity", sourceentity);
-					VampireSwordLifeStealProcedure.executeProcedure($_dependencies);
+					$_dependencies.put("entity", entity);
+					BriskLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
-		}.setRegistryName("vampire_sword"));
+
+			@Override
+			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+				super.inventoryTick(itemstack, world, entity, slot, selected);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				if (selected) {
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					BriskToolInHandTickProcedure.executeProcedure($_dependencies);
+				}
+			}
+		}.setRegistryName("brisk"));
 	}
 }

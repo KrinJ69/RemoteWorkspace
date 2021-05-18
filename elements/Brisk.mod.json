@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "placeholder",
+    "customModelName": "Normal",
+    "name": "Brisk",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AggregateArmors"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 9.0,
+    "attackSpeed": 3.5,
+    "enchantability": 12,
+    "damageVsEntity": 4.5,
+    "usageCount": 2561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BriskLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "BriskToolInHandTick"
+    }
+  }
+}

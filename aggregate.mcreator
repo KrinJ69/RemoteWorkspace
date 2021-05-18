@@ -207,7 +207,7 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -576,6 +576,143 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soul_of_eternity"
+    },
+    {
+      "name": "VampireSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampire_sword_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BriskToolInHandTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brisk_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BriskLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brisk_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brisk",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brisk"
+    },
+    {
+      "name": "SoulOfSpeed",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_of_speed"
+    },
+    {
+      "name": "SoulOfSpeedRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_of_speed_recipe"
+    },
+    {
+      "name": "ReaperToolInHandTick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reaper_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReaperLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reaper_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reaper",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reaper"
     }
   ],
   "variable_elements": [],
@@ -603,7 +740,9 @@
       "item.aggregate.steel_armor_boots": "Steel Boots",
       "item.aggregate.soul_of_darkness": "Soul Of Darkness",
       "item.aggregate.wrath": "Wrath",
+      "item.aggregate.reaper": "Reaper",
       "itemGroup.tabaggregate_blocks": "Aggregate Blocks",
+      "item.aggregate.brisk": "Brisk",
       "item.aggregate.steel_ingot": "Steel Ingot",
       "item.aggregate.soul_of_flame": "Soul Of Flame",
       "item.aggregate.sidious": "Sidious",
@@ -611,6 +750,7 @@
       "item.aggregate.bottle_with_essence": "Bottle With Essence",
       "block.aggregate.steel_block": "Steel Block",
       "itemGroup.tabaggregate_armors": "Aggregate Combat",
+      "item.aggregate.soul_of_speed": "Soul Of Speed",
       "item.aggregate.soul_of_eternity": "Soul Of Eternity"
     }
   },
@@ -621,7 +761,7 @@
   "workspaceSettings": {
     "modid": "aggregate",
     "modName": "Aggregate",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "KrinJ, pcmrveteran",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
