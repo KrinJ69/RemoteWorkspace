@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "aggregate:blocks/placeholder",
-    "up": "aggregate:blocks/placeholder",
-    "north": "aggregate:blocks/placeholder",
-    "east": "aggregate:blocks/placeholder",
-    "south": "aggregate:blocks/placeholder",
-    "west": "aggregate:blocks/placeholder",
-    "particle": "aggregate:blocks/placeholder"
+    "down": "aggregate:blocks/steelblock",
+    "up": "aggregate:blocks/steelblock",
+    "north": "aggregate:blocks/steelblock",
+    "east": "aggregate:blocks/steelblock",
+    "south": "aggregate:blocks/steelblock",
+    "west": "aggregate:blocks/steelblock",
+    "particle": "aggregate:blocks/steelblock"
   }
 }

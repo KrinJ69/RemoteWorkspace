@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "placeholder",
-    "textureTop": "placeholder",
-    "textureLeft": "placeholder",
-    "textureFront": "placeholder",
-    "textureRight": "placeholder",
-    "textureBack": "placeholder",
+    "texture": "steelblock",
+    "textureTop": "steelblock",
+    "textureLeft": "steelblock",
+    "textureFront": "steelblock",
+    "textureRight": "steelblock",
+    "textureBack": "steelblock",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,7 +34,7 @@
     ],
     "name": "Steel Block",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 1.3,
     "resistance": 13.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

@@ -35,7 +35,7 @@ public class SteelBlockBlock extends AggregateModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 13f).setLightLevel(s -> 0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1.3f, 13f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("steel_block");
 		}
