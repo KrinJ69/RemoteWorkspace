@@ -32,7 +32,7 @@ public class SteelSwordItem extends AggregateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {

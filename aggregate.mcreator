@@ -99,6 +99,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_hoe_recipe"
+    },
+    {
+      "name": "SteelRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_recipe"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_block"
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_block_recipe"
+    },
+    {
+      "name": "SteelBlockRecipe2",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_block_recipe_2"
     }
   ],
   "variable_elements": [],
@@ -108,6 +144,7 @@
       "item.aggregate.steel_shovel": "Steel Shovel",
       "item.aggregate.steel_axe": "Steel Axe",
       "item.aggregate.steel_hoe": "Steel Hoe",
+      "block.aggregate.steel_block": "Steel Block",
       "item.aggregate.steel_pickaxe": "Steel Pickaxe",
       "item.aggregate.steel_sword": "Steel Sword",
       "item.aggregate.steel_ingot": "Steel Ingot"

@@ -24,15 +24,15 @@ public class SteelAxeItem extends AggregateModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 300;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 7f;
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {
