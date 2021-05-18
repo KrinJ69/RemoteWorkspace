@@ -23,7 +23,7 @@ public class ClamorItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:clamor")
 	public static final Item block = null;
 	public ClamorItem(AggregateModElements instance) {
-		super(instance, 33);
+		super(instance, 21);
 	}
 
 	@Override
