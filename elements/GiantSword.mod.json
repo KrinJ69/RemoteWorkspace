@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "gianthammer",
+    "texture": "placeholder",
     "customModelName": "Normal",
     "name": "Giant Sword",
     "specialInfo": [],
