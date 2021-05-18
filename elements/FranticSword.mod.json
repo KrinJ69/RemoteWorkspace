@@ -8,7 +8,7 @@
     "name": "Frantic Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AggregateArmors"
     },
     "toolType": "Sword",
     "harvestLevel": 3,

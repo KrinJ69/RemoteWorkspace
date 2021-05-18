@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.aggregate.itemgroup.AggregateToolsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
 @AggregateModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class SteelPickaxeItem extends AggregateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SteelIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(AggregateToolsItemGroup.tab)) {
 		}.setRegistryName("steel_pickaxe"));
 	}
 }

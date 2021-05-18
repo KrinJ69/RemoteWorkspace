@@ -7,12 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.aggregate.procedures.VampireSwordLifeStealProcedure;
+import net.mcreator.aggregate.itemgroup.AggregateArmorsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
 import java.util.Map;
@@ -23,7 +23,7 @@ public class VampireSwordItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:vampire_sword")
 	public static final Item block = null;
 	public VampireSwordItem(AggregateModElements instance) {
-		super(instance, 21);
+		super(instance, 8);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class VampireSwordItem extends AggregateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.4f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);

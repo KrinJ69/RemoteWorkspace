@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Aggregate Blocks",
+    "icon": {
+      "value": "CUSTOM:SteelBlock"
+    },
+    "showSearch": false
+  }
+}

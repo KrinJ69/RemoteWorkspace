@@ -7,12 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aggregate.procedures.LivingSwordToolInHandTickProcedure;
+import net.mcreator.aggregate.itemgroup.AggregateArmorsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
 import java.util.Map;
@@ -23,7 +23,7 @@ public class LivingSwordItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:living_sword")
 	public static final Item block = null;
 	public LivingSwordItem(AggregateModElements instance) {
-		super(instance, 23);
+		super(instance, 6);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class LivingSwordItem extends AggregateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.4f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);

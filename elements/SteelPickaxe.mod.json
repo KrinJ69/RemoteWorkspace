@@ -8,7 +8,7 @@
     "name": "Steel Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AggregateTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 2,

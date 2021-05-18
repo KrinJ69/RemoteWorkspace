@@ -6,7 +6,6 @@ import net.minecraftforge.common.ToolType;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -14,6 +13,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.aggregate.itemgroup.AggregateBlocksItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
 import java.util.List;
@@ -24,14 +24,14 @@ public class SteelBlockBlock extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:steel_block")
 	public static final Block block = null;
 	public SteelBlockBlock(AggregateModElements instance) {
-		super(instance, 13);
+		super(instance, 11);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(AggregateBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

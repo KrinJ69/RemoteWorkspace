@@ -1,0 +1,22 @@
+{
+  "group": "aggregate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "aggregate:bottle_with_essence"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "aggregate:magical_essence",
+    "count": 1
+  }
+}

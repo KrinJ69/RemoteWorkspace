@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Aggregate Tools",
+    "icon": {
+      "value": "CUSTOM:SteelAxe"
+    },
+    "showSearch": false
+  }
+}

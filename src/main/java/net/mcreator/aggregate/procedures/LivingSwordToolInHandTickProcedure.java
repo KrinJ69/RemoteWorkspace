@@ -13,7 +13,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class LivingSwordToolInHandTickProcedure extends AggregateModElements.ModElement {
 	public LivingSwordToolInHandTickProcedure(AggregateModElements instance) {
-		super(instance, 23);
+		super(instance, 25);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -24,8 +24,8 @@ public class LivingSwordToolInHandTickProcedure extends AggregateModElements.Mod
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 10, (int) 2, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 1, (int) 2, (false), (false)));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 10, (int) 2, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 1, (int) 2, (false), (false)));
 	}
 }

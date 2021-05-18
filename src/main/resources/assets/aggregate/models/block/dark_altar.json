@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aggregate:blocks/placeholderb",
+    "up": "aggregate:blocks/placeholderb",
+    "north": "aggregate:blocks/placeholderb",
+    "east": "aggregate:blocks/placeholderb",
+    "south": "aggregate:blocks/placeholderb",
+    "west": "aggregate:blocks/placeholderb",
+    "particle": "aggregate:blocks/placeholderb"
+  }
+}

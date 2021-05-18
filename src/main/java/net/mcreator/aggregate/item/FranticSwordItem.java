@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.aggregate.itemgroup.AggregateArmorsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
 @AggregateModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class FranticSwordItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:frantic_sword")
 	public static final Item block = null;
 	public FranticSwordItem(AggregateModElements instance) {
-		super(instance, 22);
+		super(instance, 7);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class FranticSwordItem extends AggregateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -0.5f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -0.5f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 		}.setRegistryName("frantic_sword"));
 	}
 }
