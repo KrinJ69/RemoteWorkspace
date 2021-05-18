@@ -58,6 +58,6 @@ public class ReaperLivingEntityIsHitWithToolProcedure extends AggregateModElemen
 			_ent.setEffectOnly(true);
 			((World) world).addEntity(_ent);
 		}
-		entity.attackEntityFrom(DamageSource.LIGHTNING_BOLT, (float) 6);
+		entity.attackEntityFrom(DamageSource.LIGHTNING_BOLT, (float) 4);
 	}
 }
