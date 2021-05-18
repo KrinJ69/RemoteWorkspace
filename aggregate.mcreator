@@ -186,6 +186,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_boots_recipe"
+    },
+    {
+      "name": "VampireSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampire_sword"
+    },
+    {
+      "name": "VampireSwordLifeSteal",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampire_sword_life_steal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
