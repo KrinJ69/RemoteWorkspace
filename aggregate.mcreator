@@ -454,6 +454,128 @@
           }
         ]
       }
+    },
+    {
+      "name": "GiantSword",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_sword"
+    },
+    {
+      "name": "Sidious",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sidious"
+    },
+    {
+      "name": "SidiousLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sidious_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WrathLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrath_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wrath",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrath"
+    },
+    {
+      "name": "SoulOfLight",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_of_light"
+    },
+    {
+      "name": "SoulOfDarknessRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_of_darkness_recipe"
+    },
+    {
+      "name": "SoulOfFlameRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_of_flame_recipe"
+    },
+    {
+      "name": "SoulOfLightRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_of_light_recipe"
+    },
+    {
+      "name": "SoulOfEternity",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_of_eternity"
     }
   ],
   "variable_elements": [],
@@ -462,29 +584,34 @@
     "en_us": {
       "item.aggregate.steel_axe": "Steel Axe",
       "itemGroup.tabaggregate_items": "Aggregate Items",
+      "item.aggregate.soul_of_light": "Soul Of Light",
       "item.aggregate.clamor": "Clamor",
       "item.aggregate.steel_sword": "Steel Sword",
       "itemGroup.tabaggregate_tools": "Aggregate Tools",
       "item.aggregate.frantic_sword": "Frantic Sword",
       "item.aggregate.steel_shovel": "Steel Shovel",
       "item.aggregate.steel_armor_chestplate": "Steel Chestplate",
-      "block.aggregate.dark_altar": "Dark Altar",
       "item.aggregate.steel_hoe": "Steel Hoe",
+      "block.aggregate.dark_altar": "Dark Altar",
       "item.aggregate.steel_pickaxe": "Steel Pickaxe",
       "item.aggregate.vampire_sword": "Vampire Sword",
       "item.aggregate.inferno": "Inferno",
       "item.aggregate.living_sword": "Living Sword",
       "item.aggregate.steel_armor_helmet": "Steel Helmet",
+      "item.aggregate.giant_sword": "Giant Sword",
       "item.aggregate.steel_armor_leggings": "Steel Leggings",
       "item.aggregate.steel_armor_boots": "Steel Boots",
       "item.aggregate.soul_of_darkness": "Soul Of Darkness",
+      "item.aggregate.wrath": "Wrath",
       "itemGroup.tabaggregate_blocks": "Aggregate Blocks",
       "item.aggregate.steel_ingot": "Steel Ingot",
       "item.aggregate.soul_of_flame": "Soul Of Flame",
+      "item.aggregate.sidious": "Sidious",
       "item.aggregate.magical_essence": "Magical Essence",
       "item.aggregate.bottle_with_essence": "Bottle With Essence",
       "block.aggregate.steel_block": "Steel Block",
-      "itemGroup.tabaggregate_armors": "Aggregate Combat"
+      "itemGroup.tabaggregate_armors": "Aggregate Combat",
+      "item.aggregate.soul_of_eternity": "Soul Of Eternity"
     }
   },
   "foldersRoot": {
@@ -494,7 +621,7 @@
   "workspaceSettings": {
     "modid": "aggregate",
     "modName": "Aggregate",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "KrinJ, pcmrveteran",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",

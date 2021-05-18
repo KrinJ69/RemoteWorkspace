@@ -3,31 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "placeholder",
+    "texture": "sidious",
     "customModelName": "Normal",
-    "name": "Inferno",
+    "name": "Sidious",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AggregateArmors"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 8.0,
-    "attackSpeed": 2.0,
+    "harvestLevel": 3,
+    "efficiency": 9.0,
+    "attackSpeed": 0.8,
     "enchantability": 12,
-    "damageVsEntity": 1.0,
-    "usageCount": 2000,
+    "damageVsEntity": 6.5,
+    "usageCount": 1031,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "InfernoLivingEntityIsHitWithTool"
-    },
-    "onItemInUseTick": {
-      "name": "InfernoToolInHandTick"
+      "name": "SidiousLivingEntityIsHitWithTool"
     }
   }
 }

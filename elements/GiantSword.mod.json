@@ -5,29 +5,23 @@
     "renderType": 0,
     "texture": "placeholder",
     "customModelName": "Normal",
-    "name": "Inferno",
+    "name": "Giant Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AggregateArmors"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
-    "efficiency": 8.0,
-    "attackSpeed": 2.0,
-    "enchantability": 12,
-    "damageVsEntity": 1.0,
-    "usageCount": 2000,
+    "efficiency": 12.0,
+    "attackSpeed": 0.5,
+    "enchantability": 14,
+    "damageVsEntity": 16.0,
+    "usageCount": 2431,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "InfernoLivingEntityIsHitWithTool"
-    },
-    "onItemInUseTick": {
-      "name": "InfernoToolInHandTick"
-    }
+    "damageOnCrafting": false
   }
 }

@@ -10,10 +10,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
 
-import net.mcreator.aggregate.procedures.InfernoToolInHandTickProcedure;
-import net.mcreator.aggregate.procedures.InfernoLivingEntityIsHitWithToolProcedure;
+import net.mcreator.aggregate.procedures.WrathLivingEntityIsHitWithToolProcedure;
 import net.mcreator.aggregate.itemgroup.AggregateArmorsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
@@ -21,30 +19,30 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AggregateModElements.ModElement.Tag
-public class InfernoItem extends AggregateModElements.ModElement {
-	@ObjectHolder("aggregate:inferno")
+public class WrathItem extends AggregateModElements.ModElement {
+	@ObjectHolder("aggregate:wrath")
 	public static final Item block = null;
-	public InfernoItem(AggregateModElements instance) {
-		super(instance, 30);
+	public WrathItem(AggregateModElements instance) {
+		super(instance, 42);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2000;
+				return 3671;
 			}
 
 			public float getEfficiency() {
-				return 8f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 5.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 12;
 			}
 
 			public int getEnchantability() {
@@ -54,7 +52,7 @@ public class InfernoItem extends AggregateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2f, new Item.Properties().group(AggregateArmorsItemGroup.tab).isImmuneToFire()) {
+		}, 3, -2f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
@@ -65,24 +63,10 @@ public class InfernoItem extends AggregateModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					$_dependencies.put("world", world);
-					InfernoLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
+					WrathLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
-
-			@Override
-			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-				super.inventoryTick(itemstack, world, entity, slot, selected);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				if (selected) {
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					InfernoToolInHandTickProcedure.executeProcedure($_dependencies);
-				}
-			}
-		}.setRegistryName("inferno"));
+		}.setRegistryName("wrath"));
 	}
 }
