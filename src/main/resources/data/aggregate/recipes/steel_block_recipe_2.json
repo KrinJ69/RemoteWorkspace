@@ -1,0 +1,13 @@
+{
+  "group": "aggregate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aggregate:steel_block"
+    }
+  ],
+  "result": {
+    "item": "aggregate:steel_ingot",
+    "count": 9
+  }
+}

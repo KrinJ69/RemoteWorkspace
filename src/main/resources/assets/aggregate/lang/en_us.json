@@ -1,3 +1,9 @@
 {
+  "item.aggregate.steel_shovel": "Steel Shovel",
+  "item.aggregate.steel_axe": "Steel Axe",
+  "item.aggregate.steel_hoe": "Steel Hoe",
+  "block.aggregate.steel_block": "Steel Block",
+  "item.aggregate.steel_pickaxe": "Steel Pickaxe",
+  "item.aggregate.steel_sword": "Steel Sword",
   "item.aggregate.steel_ingot": "Steel Ingot"
 }
