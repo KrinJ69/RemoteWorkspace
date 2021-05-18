@@ -1,22 +1,10 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "Testitem",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "testitem"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.aggregate.testitem": "Testitem"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
