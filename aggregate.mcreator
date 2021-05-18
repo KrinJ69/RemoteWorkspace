@@ -13,7 +13,7 @@
     {
       "name": "SteelPickaxe",
       "type": "tool",
-      "sortid": 2,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "SteelAxe",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "SteelSword",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "SteelShovel",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "SteelHoe",
       "type": "tool",
-      "sortid": 5,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "SteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "SteelAxeRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "SteelSwordRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "SteelShovelRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "SteelHoeRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "SteelRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "SteelBlock",
       "type": "block",
-      "sortid": 11,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "SteelBlockRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "SteelBlockRecipe2",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "SteelArmor",
       "type": "armor",
-      "sortid": 10,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +154,7 @@
     {
       "name": "SteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -163,7 +163,7 @@
     {
       "name": "SteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -172,7 +172,7 @@
     {
       "name": "SteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -181,7 +181,7 @@
     {
       "name": "SteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -190,7 +190,7 @@
     {
       "name": "VampireSword",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -199,7 +199,7 @@
     {
       "name": "VampireSwordLifeSteal",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -216,7 +216,7 @@
     {
       "name": "FranticSword",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -225,7 +225,7 @@
     {
       "name": "LivingSwordToolInHandTick",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -242,7 +242,7 @@
     {
       "name": "LivingSword",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -251,7 +251,7 @@
     {
       "name": "AggregateBlocks",
       "type": "tab",
-      "sortid": 26,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -260,7 +260,7 @@
     {
       "name": "AggregateItems",
       "type": "tab",
-      "sortid": 27,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -269,7 +269,7 @@
     {
       "name": "AggregateTools",
       "type": "tab",
-      "sortid": 28,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -278,7 +278,7 @@
     {
       "name": "AggregateArmors",
       "type": "tab",
-      "sortid": 29,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -287,7 +287,7 @@
     {
       "name": "Inferno",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -296,7 +296,7 @@
     {
       "name": "InfernoToolInHandTick",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -313,7 +313,7 @@
     {
       "name": "InfernoLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -334,7 +334,7 @@
     {
       "name": "ClamorLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -351,7 +351,7 @@
     {
       "name": "Clamor",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -360,7 +360,7 @@
     {
       "name": "DarkAltarGui",
       "type": "gui",
-      "sortid": 34,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -369,7 +369,7 @@
     {
       "name": "DarkAltar",
       "type": "block",
-      "sortid": 34,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -378,7 +378,7 @@
     {
       "name": "SoulOfDarkness",
       "type": "item",
-      "sortid": 35,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -387,7 +387,7 @@
     {
       "name": "MagicalEssence",
       "type": "item",
-      "sortid": 36,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -396,7 +396,7 @@
     {
       "name": "DarkAltarRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -405,7 +405,7 @@
     {
       "name": "BottleWithEssence",
       "type": "item",
-      "sortid": 37,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -414,7 +414,7 @@
     {
       "name": "MagicalEssenceRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -423,7 +423,7 @@
     {
       "name": "MagicalEssenceRecipe2",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -432,7 +432,7 @@
     {
       "name": "SoulOfFlame",
       "type": "item",
-      "sortid": 39,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -441,7 +441,7 @@
     {
       "name": "DarkAltarOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -458,7 +458,7 @@
     {
       "name": "GiantSword",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -467,7 +467,7 @@
     {
       "name": "Sidious",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -476,7 +476,7 @@
     {
       "name": "SidiousLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -509,7 +509,7 @@
     {
       "name": "WrathLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 42,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -526,7 +526,7 @@
     {
       "name": "Wrath",
       "type": "tool",
-      "sortid": 42,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -535,7 +535,7 @@
     {
       "name": "SoulOfLight",
       "type": "item",
-      "sortid": 44,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -544,7 +544,7 @@
     {
       "name": "SoulOfDarknessRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -553,7 +553,7 @@
     {
       "name": "SoulOfFlameRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -562,7 +562,7 @@
     {
       "name": "SoulOfLightRecipe",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -571,7 +571,7 @@
     {
       "name": "SoulOfEternity",
       "type": "item",
-      "sortid": 48,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -580,7 +580,7 @@
     {
       "name": "VampireSwordEntitySwingsItem",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -597,7 +597,7 @@
     {
       "name": "BriskToolInHandTick",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -614,7 +614,7 @@
     {
       "name": "BriskLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -631,7 +631,7 @@
     {
       "name": "Brisk",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -640,7 +640,7 @@
     {
       "name": "SoulOfSpeed",
       "type": "item",
-      "sortid": 52,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -649,7 +649,7 @@
     {
       "name": "SoulOfSpeedRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -658,7 +658,7 @@
     {
       "name": "ReaperToolInHandTick",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -675,7 +675,7 @@
     {
       "name": "ReaperLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 55,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -708,7 +708,7 @@
     {
       "name": "Reaper",
       "type": "tool",
-      "sortid": 54,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -717,7 +717,7 @@
     {
       "name": "EternityArmorArmor",
       "type": "armor",
-      "sortid": 56,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -732,7 +732,7 @@
     {
       "name": "EternityArmorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -741,7 +741,7 @@
     {
       "name": "EternityArmorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -750,7 +750,7 @@
     {
       "name": "EternityArmorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -759,7 +759,7 @@
     {
       "name": "EternityArmorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -768,7 +768,7 @@
     {
       "name": "EternityArmorArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -785,7 +785,7 @@
     {
       "name": "FlamePickaxe",
       "type": "tool",
-      "sortid": 62,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -794,7 +794,7 @@
     {
       "name": "SpeedPickaxeToolInHandTick",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -811,7 +811,7 @@
     {
       "name": "SpeedPickaxe",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -820,7 +820,7 @@
     {
       "name": "FlamePickaxeRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -849,7 +849,7 @@
     {
       "name": "FlamePickaxeRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -858,7 +858,7 @@
     {
       "name": "SpeedPickaxeRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
