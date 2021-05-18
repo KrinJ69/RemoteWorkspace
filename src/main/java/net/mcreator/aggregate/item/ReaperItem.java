@@ -40,7 +40,7 @@ public class ReaperItem extends AggregateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 12f;
+				return 9f;
 			}
 
 			public int getHarvestLevel() {
