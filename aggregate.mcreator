@@ -193,16 +193,16 @@
   "language_map": {
     "en_us": {
       "item.aggregate.steel_armor_boots": "Steel Boots",
-      "item.aggregate.steel_axe": "Steel Axe",
-      "item.aggregate.steel_sword": "Steel Sword",
-      "item.aggregate.steel_ingot": "Steel Ingot",
       "item.aggregate.steel_shovel": "Steel Shovel",
       "item.aggregate.steel_armor_chestplate": "Steel Chestplate",
+      "item.aggregate.steel_axe": "Steel Axe",
       "item.aggregate.steel_hoe": "Steel Hoe",
       "block.aggregate.steel_block": "Steel Block",
       "item.aggregate.steel_pickaxe": "Steel Pickaxe",
+      "item.aggregate.steel_sword": "Steel Sword",
       "item.aggregate.steel_armor_helmet": "Steel Helmet",
-      "item.aggregate.steel_armor_leggings": "Steel Leggings"
+      "item.aggregate.steel_armor_leggings": "Steel Leggings",
+      "item.aggregate.steel_ingot": "Steel Ingot"
     }
   },
   "foldersRoot": {
