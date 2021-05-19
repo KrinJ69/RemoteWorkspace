@@ -10,7 +10,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
 
+import net.mcreator.aggregate.procedures.SidiousToolInHandTickProcedure;
 import net.mcreator.aggregate.procedures.SidiousLivingEntityIsHitWithToolProcedure;
 import net.mcreator.aggregate.itemgroup.AggregateArmorsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
@@ -70,6 +72,19 @@ public class SidiousItem extends AggregateModElements.ModElement {
 					SidiousLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
+			}
+
+			@Override
+			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+				super.inventoryTick(itemstack, world, entity, slot, selected);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				if (selected) {
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					SidiousToolInHandTickProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("sidious"));
 	}

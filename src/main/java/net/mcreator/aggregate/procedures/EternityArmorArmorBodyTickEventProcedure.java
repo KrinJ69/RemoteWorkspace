@@ -22,7 +22,7 @@ import java.util.HashMap;
 @AggregateModElements.ModElement.Tag
 public class EternityArmorArmorBodyTickEventProcedure extends AggregateModElements.ModElement {
 	public EternityArmorArmorBodyTickEventProcedure(AggregateModElements instance) {
-		super(instance, 61);
+		super(instance, 71);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -51,7 +51,7 @@ public class EternityArmorArmorBodyTickEventProcedure extends AggregateModElemen
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WATER_BREATHING, (int) 1, (int) 2));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 1, (int) 1));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 5, (int) 1));
 		}
 	}
 

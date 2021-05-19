@@ -11,7 +11,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class VampireSwordEntitySwingsItemProcedure extends AggregateModElements.ModElement {
 	public VampireSwordEntitySwingsItemProcedure(AggregateModElements instance) {
-		super(instance, 49);
+		super(instance, 61);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
