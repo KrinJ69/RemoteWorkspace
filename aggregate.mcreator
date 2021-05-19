@@ -981,66 +981,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rapid_axe_recipe"
-    },
-    {
-      "name": "BackPackGui",
-      "type": "gui",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "back_pack_gui"
-    },
-    {
-      "name": "BackPackRightClickedInAir",
-      "type": "procedure",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "back_pack_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "BackPack",
-      "type": "item",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "back_pack"
-    },
-    {
-      "name": "BackPackRecipe",
-      "type": "recipe",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "back_pack_recipe"
     }
   ],
   "variable_elements": [],
@@ -1082,7 +1022,6 @@
       "item.aggregate.soul_of_flame": "Soul Of Flame",
       "item.aggregate.sidious": "Sidious",
       "item.aggregate.magical_essence": "Magical Essence",
-      "item.aggregate.back_pack": "Back Pack",
       "item.aggregate.bottle_with_essence": "Bottle With Essence",
       "item.aggregate.eternity_armor_armor_helmet": "Eternity Helmet",
       "block.aggregate.steel_block": "Steel Block",

@@ -22,7 +22,7 @@ import java.util.HashMap;
 @AggregateModElements.ModElement.Tag
 public class EternityArmorArmorBodyTickEventProcedure extends AggregateModElements.ModElement {
 	public EternityArmorArmorBodyTickEventProcedure(AggregateModElements instance) {
-		super(instance, 71);
+		super(instance, 72);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
