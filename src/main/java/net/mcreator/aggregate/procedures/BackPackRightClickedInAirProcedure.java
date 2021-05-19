@@ -1,11 +1,7 @@
 package net.mcreator.aggregate.procedures;
 
 import net.minecraftforge.fml.network.NetworkHooks;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
 
-import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
@@ -23,7 +19,6 @@ import net.mcreator.aggregate.AggregateModElements;
 import net.mcreator.aggregate.AggregateMod;
 
 import java.util.Map;
-import java.util.HashMap;
 
 import io.netty.buffer.Unpooled;
 
@@ -31,7 +26,6 @@ import io.netty.buffer.Unpooled;
 public class BackPackRightClickedInAirProcedure extends AggregateModElements.ModElement {
 	public BackPackRightClickedInAirProcedure(AggregateModElements instance) {
 		super(instance, 86);
-		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -81,25 +75,6 @@ public class BackPackRightClickedInAirProcedure extends AggregateModElements.Mod
 					}
 				}, _bpos);
 			}
-		}
-	}
-
-	@SubscribeEvent
-	public void onPlayerTick(TickEvent.PlayerTickEvent event) {
-		if (event.phase == TickEvent.Phase.END) {
-			Entity entity = event.player;
-			World world = entity.world;
-			double i = entity.getPosX();
-			double j = entity.getPosY();
-			double k = entity.getPosZ();
-			Map<String, Object> dependencies = new HashMap<>();
-			dependencies.put("x", i);
-			dependencies.put("y", j);
-			dependencies.put("z", k);
-			dependencies.put("world", world);
-			dependencies.put("entity", entity);
-			dependencies.put("event", event);
-			this.executeProcedure(dependencies);
 		}
 	}
 }

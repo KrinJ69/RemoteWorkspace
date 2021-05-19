@@ -75,7 +75,7 @@ public class BackPackGuiGui extends AggregateModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(27);
+			this.internal = new ItemStackHandler(28);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -117,13 +117,13 @@ public class BackPackGuiGui extends AggregateModElements.ModElement {
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 38) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 20) {
-			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 56) {
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 56) {
 			}));
 			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 61, 56) {
+			}));
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 20) {
 			}));
 			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 79, 56) {
 			}));
@@ -157,8 +157,6 @@ public class BackPackGuiGui extends AggregateModElements.ModElement {
 			}));
 			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 115, 56) {
 			}));
-			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 61, 38) {
-			}));
 			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 79, 38) {
 			}));
 			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 97, 38) {
@@ -166,6 +164,8 @@ public class BackPackGuiGui extends AggregateModElements.ModElement {
 			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 115, 38) {
 			}));
 			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 133, 38) {
+			}));
+			this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 61, 38) {
 			}));
 			int si;
 			int sj;
@@ -309,10 +309,118 @@ public class BackPackGuiGui extends AggregateModElements.ModElement {
 			if (!bound && (playerIn instanceof ServerPlayerEntity)) {
 				if (!playerIn.isAlive() || playerIn instanceof ServerPlayerEntity && ((ServerPlayerEntity) playerIn).hasDisconnected()) {
 					for (int j = 0; j < internal.getSlots(); ++j) {
+						if (j == 0)
+							continue;
+						if (j == 1)
+							continue;
+						if (j == 3)
+							continue;
+						if (j == 4)
+							continue;
+						if (j == 5)
+							continue;
+						if (j == 2)
+							continue;
+						if (j == 6)
+							continue;
+						if (j == 7)
+							continue;
+						if (j == 8)
+							continue;
+						if (j == 9)
+							continue;
+						if (j == 10)
+							continue;
+						if (j == 11)
+							continue;
+						if (j == 12)
+							continue;
+						if (j == 13)
+							continue;
+						if (j == 14)
+							continue;
+						if (j == 15)
+							continue;
+						if (j == 16)
+							continue;
+						if (j == 17)
+							continue;
+						if (j == 18)
+							continue;
+						if (j == 19)
+							continue;
+						if (j == 20)
+							continue;
+						if (j == 21)
+							continue;
+						if (j == 23)
+							continue;
+						if (j == 24)
+							continue;
+						if (j == 25)
+							continue;
+						if (j == 26)
+							continue;
+						if (j == 27)
+							continue;
 						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 					}
 				} else {
 					for (int i = 0; i < internal.getSlots(); ++i) {
+						if (i == 0)
+							continue;
+						if (i == 1)
+							continue;
+						if (i == 3)
+							continue;
+						if (i == 4)
+							continue;
+						if (i == 5)
+							continue;
+						if (i == 2)
+							continue;
+						if (i == 6)
+							continue;
+						if (i == 7)
+							continue;
+						if (i == 8)
+							continue;
+						if (i == 9)
+							continue;
+						if (i == 10)
+							continue;
+						if (i == 11)
+							continue;
+						if (i == 12)
+							continue;
+						if (i == 13)
+							continue;
+						if (i == 14)
+							continue;
+						if (i == 15)
+							continue;
+						if (i == 16)
+							continue;
+						if (i == 17)
+							continue;
+						if (i == 18)
+							continue;
+						if (i == 19)
+							continue;
+						if (i == 20)
+							continue;
+						if (i == 21)
+							continue;
+						if (i == 23)
+							continue;
+						if (i == 24)
+							continue;
+						if (i == 25)
+							continue;
+						if (i == 26)
+							continue;
+						if (i == 27)
+							continue;
 						playerIn.inventory.placeItemBackInInventory(playerIn.world,
 								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 					}
