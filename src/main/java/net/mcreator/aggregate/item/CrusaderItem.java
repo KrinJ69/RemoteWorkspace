@@ -1,21 +1,40 @@
 
 package net.mcreator.aggregate.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.renderer.model.ModelRenderer;
+import net.minecraft.client.renderer.entity.model.EntityModel;
+import net.minecraft.client.renderer.entity.model.BipedModel;
+
+import net.mcreator.aggregate.AggregateModElements;
+
+import com.mojang.blaze3d.vertex.IVertexBuilder;
+import com.mojang.blaze3d.matrix.MatrixStack;
+
 @AggregateModElements.ModElement.Tag
 public class CrusaderItem extends AggregateModElements.ModElement {
-
 	@ObjectHolder("aggregate:crusader_helmet")
 	public static final Item helmet = null;
-
 	@ObjectHolder("aggregate:crusader_chestplate")
 	public static final Item body = null;
-
 	@ObjectHolder("aggregate:crusader_leggings")
 	public static final Item legs = null;
-
 	@ObjectHolder("aggregate:crusader_boots")
 	public static final Item boots = null;
-
 	public CrusaderItem(AggregateModElements instance) {
 		super(instance, 80);
 	}
@@ -64,7 +83,6 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 				return 0.1f;
 			}
 		};
-
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
@@ -81,19 +99,15 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aggregate:textures/models/armor/catexture_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
 		}.setRegistryName("crusader_helmet"));
-
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
 				BipedModel armorModel = new BipedModel(1);
 				armorModel.bipedBody = new Modelsteve().cabody;
-
 				armorModel.bipedLeftArm = new Modelsteve().caleftarm;
 				armorModel.bipedRightArm = new Modelsteve().carightarm;
-
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isSitting = defaultModel.isSitting;
 				armorModel.isChild = living.isChild();
@@ -104,9 +118,7 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aggregate:textures/models/armor/catexture_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
 		}.setRegistryName("crusader_chestplate"));
-
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
@@ -124,9 +136,7 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aggregate:textures/models/armor/catexture_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
 		}.setRegistryName("crusader_leggings"));
-
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
@@ -144,14 +154,11 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aggregate:textures/models/armor/catexture_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
 		}.setRegistryName("crusader_boots"));
 	}
-
 	// Made with Blockbench 3.6.6
 	// Exported for Minecraft version 1.15
 	// Paste this class into your mod and generate all required imports
-
 	public static class Modelsteve extends EntityModel<Entity> {
 		private final ModelRenderer cabody;
 		private final ModelRenderer cacape;
@@ -163,43 +170,35 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 		private final ModelRenderer wings;
 		private final ModelRenderer caleftshoe;
 		private final ModelRenderer carightshoe;
-
 		public Modelsteve() {
 			textureWidth = 128;
 			textureHeight = 128;
-
 			cabody = new ModelRenderer(this);
 			cabody.setRotationPoint(0.0F, 0.0F, 0.0F);
 			cabody.setTextureOffset(34, 34).addBox(-4.5F, -0.1F, -2.6F, 9.0F, 12.0F, 5.0F, 0.0F, false);
 			cabody.setTextureOffset(35, 60).addBox(-4.0F, 1.0F, -3.0F, 8.0F, 5.0F, 1.0F, 0.0F, false);
 			cabody.setTextureOffset(20, 40).addBox(-3.0F, 6.0F, -3.0F, 6.0F, 5.0F, 1.0F, 0.0F, false);
-
 			cacape = new ModelRenderer(this);
 			cacape.setRotationPoint(0.0F, 0.0F, 3.0F);
 			cabody.addChild(cacape);
 			setRotationAngle(cacape, 0.0873F, 0.0F, 0.0F);
 			cacape.setTextureOffset(0, 0).addBox(-8.0F, 0.0F, -1.0F, 16.0F, 21.0F, 1.0F, 0.0F, false);
-
 			carightleg = new ModelRenderer(this);
 			carightleg.setRotationPoint(-2.0F, 12.0F, 0.0F);
 			carightleg.setTextureOffset(34, 15).addBox(-2.5F, 0.0F, -2.5F, 5.0F, 10.0F, 5.0F, 0.0F, false);
-
 			caleftleg = new ModelRenderer(this);
 			caleftleg.setRotationPoint(2.0F, 12.0F, 0.0F);
 			caleftleg.setTextureOffset(34, 15).addBox(-2.5F, 0.0F, -2.5F, 5.0F, 10.0F, 5.0F, 0.0F, false);
-
 			caleftarm = new ModelRenderer(this);
 			caleftarm.setRotationPoint(5.0F, 2.0F, 0.0F);
 			caleftarm.setTextureOffset(0, 40).addBox(-1.5F, -2.2F, -2.5F, 5.0F, 10.0F, 5.0F, 0.0F, false);
 			caleftarm.setTextureOffset(50, 53).addBox(-1.5F, 8.8F, -2.4F, 5.0F, 2.0F, 5.0F, 0.0F, false);
 			caleftarm.setTextureOffset(49, 9).addBox(-0.9F, -4.2F, -3.0F, 6.0F, 4.0F, 6.0F, 0.0F, false);
-
 			carightarm = new ModelRenderer(this);
 			carightarm.setRotationPoint(-5.0F, 2.0F, 0.0F);
 			carightarm.setTextureOffset(0, 40).addBox(-3.5F, -2.2F, -2.5F, 5.0F, 10.0F, 5.0F, 0.0F, false);
 			carightarm.setTextureOffset(49, 9).addBox(-5.1F, -4.2F, -3.0F, 6.0F, 4.0F, 6.0F, 0.0F, false);
 			carightarm.setTextureOffset(50, 53).addBox(-3.5F, 8.8F, -2.4F, 5.0F, 2.0F, 5.0F, 0.0F, false);
-
 			cahead = new ModelRenderer(this);
 			cahead.setRotationPoint(0.0F, 0.0F, 0.0F);
 			cahead.setTextureOffset(53, 60).addBox(-4.0F, -7.6F, -4.1F, 8.0F, 7.0F, 0.0F, 0.0F, false);
@@ -210,7 +209,6 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 			cahead.setTextureOffset(49, 0).addBox(-4.5F, -4.6F, -4.3F, 4.0F, 4.0F, 1.0F, 0.0F, false);
 			cahead.setTextureOffset(4, 28).addBox(-4.5F, -5.6F, -4.3F, 1.0F, 1.0F, 1.0F, 0.0F, false);
 			cahead.setTextureOffset(0, 28).addBox(3.5F, -5.6F, -4.3F, 1.0F, 1.0F, 1.0F, 0.0F, false);
-
 			wings = new ModelRenderer(this);
 			wings.setRotationPoint(0.0F, -7.6F, 1.7F);
 			cahead.addChild(wings);
@@ -221,11 +219,9 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 			wings.setTextureOffset(4, 22).addBox(-5.0F, -4.0F, 3.0F, 1.0F, 5.0F, 1.0F, 0.0F, false);
 			wings.setTextureOffset(4, 22).addBox(4.0F, -2.0F, 0.0F, 1.0F, 5.0F, 1.0F, 0.0F, false);
 			wings.setTextureOffset(0, 22).addBox(-5.0F, -2.0F, 0.0F, 1.0F, 5.0F, 1.0F, 0.0F, false);
-
 			caleftshoe = new ModelRenderer(this);
 			caleftshoe.setRotationPoint(2.0F, 12.0F, 0.0F);
 			caleftshoe.setTextureOffset(54, 0).addBox(-2.0F, 10.1F, -2.9F, 4.0F, 2.0F, 5.0F, 0.0F, false);
-
 			carightshoe = new ModelRenderer(this);
 			carightshoe.setRotationPoint(-2.0F, 12.0F, 0.0F);
 			carightshoe.setTextureOffset(54, 0).addBox(-2.0F, 10.1F, -2.9F, 4.0F, 2.0F, 5.0F, 0.0F, false);
@@ -255,5 +251,4 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 			modelRenderer.rotateAngleZ = z;
 		}
 	}
-
 }
