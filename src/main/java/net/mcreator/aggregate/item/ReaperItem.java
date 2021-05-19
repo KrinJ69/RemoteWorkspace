@@ -25,7 +25,7 @@ public class ReaperItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:reaper")
 	public static final Item block = null;
 	public ReaperItem(AggregateModElements instance) {
-		super(instance, 54);
+		super(instance, 26);
 	}
 
 	@Override

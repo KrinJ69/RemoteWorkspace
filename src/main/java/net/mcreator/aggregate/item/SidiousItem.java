@@ -23,7 +23,7 @@ public class SidiousItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:sidious")
 	public static final Item block = null;
 	public SidiousItem(AggregateModElements instance) {
-		super(instance, 41);
+		super(instance, 23);
 	}
 
 	@Override

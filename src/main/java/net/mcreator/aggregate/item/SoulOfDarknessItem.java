@@ -16,7 +16,7 @@ public class SoulOfDarknessItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:soul_of_darkness")
 	public static final Item block = null;
 	public SoulOfDarknessItem(AggregateModElements instance) {
-		super(instance, 35);
+		super(instance, 6);
 	}
 
 	@Override

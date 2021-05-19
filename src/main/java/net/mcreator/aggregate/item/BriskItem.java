@@ -25,7 +25,7 @@ public class BriskItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:brisk")
 	public static final Item block = null;
 	public BriskItem(AggregateModElements instance) {
-		super(instance, 50);
+		super(instance, 25);
 	}
 
 	@Override

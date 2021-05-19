@@ -16,7 +16,7 @@ public class SoulOfFlameItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:soul_of_flame")
 	public static final Item block = null;
 	public SoulOfFlameItem(AggregateModElements instance) {
-		super(instance, 39);
+		super(instance, 4);
 	}
 
 	@Override

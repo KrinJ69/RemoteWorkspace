@@ -23,7 +23,7 @@ public class WrathItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:wrath")
 	public static final Item block = null;
 	public WrathItem(AggregateModElements instance) {
-		super(instance, 42);
+		super(instance, 24);
 	}
 
 	@Override

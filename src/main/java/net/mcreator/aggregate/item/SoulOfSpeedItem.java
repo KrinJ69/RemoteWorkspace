@@ -16,7 +16,7 @@ public class SoulOfSpeedItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:soul_of_speed")
 	public static final Item block = null;
 	public SoulOfSpeedItem(AggregateModElements instance) {
-		super(instance, 52);
+		super(instance, 7);
 	}
 
 	@Override
