@@ -13,7 +13,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class ReaperToolInHandTickProcedure extends AggregateModElements.ModElement {
 	public ReaperToolInHandTickProcedure(AggregateModElements instance) {
-		super(instance, 65);
+		super(instance, 54);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -23,6 +23,8 @@ public class ReaperToolInHandTickProcedure extends AggregateModElements.ModEleme
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 1));
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 1, (int) 0.5));
 		if (entity instanceof LivingEntity)

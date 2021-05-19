@@ -19,9 +19,22 @@
     "usageCount": 2561,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:SoulOfLight"
+      },
+      {
+        "value": "CUSTOM:SoulOfSpeed"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BriskLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "BriskToolInHandTick"
+    }
   }
 }

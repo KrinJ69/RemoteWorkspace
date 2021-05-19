@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "crusaderhelmet",
+    "enableBody": true,
+    "textureBody": "crusaderchest",
+    "enableLeggings": true,
+    "textureLeggings": "crusaderlegs",
+    "enableBoots": true,
+    "textureBoots": "crusaderboots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "catexture",
+    "helmetName": "Crusader Helmet",
+    "bodyName": "Crusader Chestplate",
+    "leggingsName": "Crusader Leggings",
+    "bootsName": "Crusader Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelsteve",
+    "helmetModelPart": "cahead",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelsteve",
+    "bodyModelPart": "cabody",
+    "armsModelPartL": "caleftarm",
+    "armsModelPartR": "carightarm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Modelsteve",
+    "leggingsModelPartL": "caleftleg",
+    "leggingsModelPartR": "carightleg",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modelsteve",
+    "bootsModelPartL": "caleftshoe",
+    "bootsModelPartR": "carightshoe",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 37,
+    "damageValueHelmet": 4,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 25,
+    "toughness": 1.5,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SoulOfLight"
+      }
+    ]
+  }
+}

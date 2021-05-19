@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "gianthammer",
     "customModelName": "Normal",
-    "name": "Giant Sword",
+    "name": "Giant Hammer",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AggregateArmors"
@@ -19,7 +19,11 @@
     "usageCount": 2431,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:SoulOfLight"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

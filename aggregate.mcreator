@@ -909,6 +909,21 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "accessories_gui"
+    },
+    {
+      "name": "Crusader",
+      "type": "armor",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crusader",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -931,9 +946,10 @@
       "item.aggregate.steel_pickaxe": "Steel Pickaxe",
       "item.aggregate.vampire_sword": "Vampire Sword",
       "item.aggregate.inferno": "Inferno",
+      "item.aggregate.crusader_boots": "Crusader Boots",
       "item.aggregate.living_sword": "Living Sword",
       "item.aggregate.steel_armor_helmet": "Steel Helmet",
-      "item.aggregate.giant_sword": "Giant Sword",
+      "item.aggregate.giant_sword": "Giant Hammer",
       "item.aggregate.steel_armor_leggings": "Steel Leggings",
       "item.aggregate.steel_armor_boots": "Steel Boots",
       "item.aggregate.soul_of_darkness": "Soul Of Darkness",
@@ -941,6 +957,7 @@
       "item.aggregate.reaper": "Reaper",
       "item.aggregate.speed_pickaxe": "Speed Pickaxe",
       "item.aggregate.eternity_armor_armor_chestplate": "Eternity Chestplate",
+      "item.aggregate.crusader_helmet": "Crusader Helmet",
       "itemGroup.tabaggregate_blocks": "Aggregate Blocks",
       "item.aggregate.brisk": "Brisk",
       "item.aggregate.steel_ingot": "Steel Ingot",
@@ -952,6 +969,8 @@
       "block.aggregate.steel_block": "Steel Block",
       "itemGroup.tabaggregate_armors": "Aggregate Combat",
       "item.aggregate.eternity_armor_armor_leggings": "Eternity Leggings",
+      "item.aggregate.crusader_chestplate": "Crusader Chestplate",
+      "item.aggregate.crusader_leggings": "Crusader Leggings",
       "item.aggregate.soul_of_speed": "Soul Of Speed",
       "item.aggregate.soul_of_eternity": "Soul Of Eternity"
     }

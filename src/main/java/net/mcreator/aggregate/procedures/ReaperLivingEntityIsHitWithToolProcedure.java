@@ -18,7 +18,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class ReaperLivingEntityIsHitWithToolProcedure extends AggregateModElements.ModElement {
 	public ReaperLivingEntityIsHitWithToolProcedure(AggregateModElements instance) {
-		super(instance, 66);
+		super(instance, 55);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

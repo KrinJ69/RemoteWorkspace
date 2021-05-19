@@ -27,7 +27,7 @@ public class AccessoriesGuiGuiWindow extends ContainerScreen<AccessoriesGuiGui.G
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 261;
+		this.xSize = 177;
 		this.ySize = 188;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("aggregate:textures/accessories_gui.png");
@@ -47,6 +47,8 @@ public class AccessoriesGuiGuiWindow extends ContainerScreen<AccessoriesGuiGui.G
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("aggregate:textures/unnamed.png"));
+		this.blit(ms, this.guiLeft + 97, this.guiTop + 21, 0, 0, 32, 64, 32, 64);
 		RenderSystem.disableBlend();
 	}
 
@@ -66,10 +68,10 @@ public class AccessoriesGuiGuiWindow extends ContainerScreen<AccessoriesGuiGui.G
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Helmet", 29, 19, -12829636);
-		this.font.drawString(ms, "Chestplate", 13, 37, -12829636);
-		this.font.drawString(ms, "Leggings", 24, 54, -12829636);
-		this.font.drawString(ms, "Boots", 37, 73, -12829636);
+		this.font.drawString(ms, "Helmet", 37, 22, -12829636);
+		this.font.drawString(ms, "Chestplate", 17, 39, -12829636);
+		this.font.drawString(ms, "Leggings", 27, 56, -12829636);
+		this.font.drawString(ms, "Boots", 42, 75, -12829636);
 	}
 
 	@Override

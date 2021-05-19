@@ -13,7 +13,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class BriskLivingEntityIsHitWithToolProcedure extends AggregateModElements.ModElement {
 	public BriskLivingEntityIsHitWithToolProcedure(AggregateModElements instance) {
-		super(instance, 63);
+		super(instance, 51);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

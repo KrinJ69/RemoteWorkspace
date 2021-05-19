@@ -16,7 +16,7 @@ public class MagicalEssenceItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:magical_essence")
 	public static final Item block = null;
 	public MagicalEssenceItem(AggregateModElements instance) {
-		super(instance, 2);
+		super(instance, 36);
 	}
 
 	@Override
