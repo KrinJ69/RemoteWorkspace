@@ -13,7 +13,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class ClamorLivingEntityIsHitWithToolProcedure extends AggregateModElements.ModElement {
 	public ClamorLivingEntityIsHitWithToolProcedure(AggregateModElements instance) {
-		super(instance, 50);
+		super(instance, 33);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

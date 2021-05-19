@@ -52,7 +52,7 @@ public class ReaperItem extends AggregateModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SoulOfDarknessItem.block, (int) (1)));
 			}
 		}, 3, -0.5f, new Item.Properties().group(AggregateArmorsItemGroup.tab).isImmuneToFire()) {
 			@Override

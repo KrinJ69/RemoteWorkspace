@@ -113,13 +113,13 @@ public class AccessoriesGuiGui extends AggregateModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 68, 19) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 71, 19) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 68, 37) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 71, 37) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 68, 55) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 71, 55) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 68, 73) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 71, 73) {
 			}));
 			int si;
 			int sj;

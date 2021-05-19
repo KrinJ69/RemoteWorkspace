@@ -23,7 +23,7 @@ public class VampireSwordItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:vampire_sword")
 	public static final Item block = null;
 	public VampireSwordItem(AggregateModElements instance) {
-		super(instance, 8);
+		super(instance, 17);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class VampireSwordItem extends AggregateModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SoulOfDarknessItem.block, (int) (1)));
 			}
 		}, 3, -2.4f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override

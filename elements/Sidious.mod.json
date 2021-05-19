@@ -19,15 +19,16 @@
     "usageCount": 1031,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:SoulOfDarkness"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
       "name": "SidiousLivingEntityIsHitWithTool"
-    },
-    "onItemInUseTick": {
-      "name": "SidiousToolInHandTick"
     }
   }
 }

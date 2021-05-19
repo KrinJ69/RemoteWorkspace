@@ -23,7 +23,7 @@ public class ClamorItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:clamor")
 	public static final Item block = null;
 	public ClamorItem(AggregateModElements instance) {
-		super(instance, 33);
+		super(instance, 21);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class ClamorItem extends AggregateModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SoulOfSpeedItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override

@@ -50,7 +50,7 @@ public class WrathItem extends AggregateModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SoulOfDarknessItem.block, (int) (1)));
 			}
 		}, 3, -2f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override

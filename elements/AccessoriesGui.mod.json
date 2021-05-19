@@ -3,9 +3,9 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 261,
+    "width": 177,
     "height": 188,
-    "inventoryOffsetX": -43,
+    "inventoryOffsetX": 0,
     "inventoryOffsetY": 13,
     "renderBgLayer": true,
     "doesPauseGame": false,
@@ -20,7 +20,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 150,
+          "x": 195,
           "y": 44
         }
       },
@@ -34,7 +34,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 150,
+          "x": 195,
           "y": 62
         }
       },
@@ -48,7 +48,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 150,
+          "x": 195,
           "y": 80
         }
       },
@@ -62,7 +62,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 150,
+          "x": 195,
           "y": 98
         }
       },
@@ -75,8 +75,8 @@
             "falpha": 0.0
           },
           "name": "Helmet",
-          "x": 112,
-          "y": 45
+          "x": 162,
+          "y": 48
         }
       },
       {
@@ -88,8 +88,8 @@
             "falpha": 0.0
           },
           "name": "Chestplate",
-          "x": 96,
-          "y": 63
+          "x": 142,
+          "y": 65
         }
       },
       {
@@ -101,8 +101,8 @@
             "falpha": 0.0
           },
           "name": "Leggings",
-          "x": 107,
-          "y": 80
+          "x": 152,
+          "y": 82
         }
       },
       {
@@ -114,8 +114,18 @@
             "falpha": 0.0
           },
           "name": "Boots",
-          "x": 120,
-          "y": 99
+          "x": 167,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed.png",
+          "use1Xscale": false,
+          "name": "unnamed.png",
+          "x": 222,
+          "y": 47
         }
       }
     ]

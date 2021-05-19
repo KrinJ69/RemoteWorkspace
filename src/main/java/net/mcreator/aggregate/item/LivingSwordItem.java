@@ -23,7 +23,7 @@ public class LivingSwordItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:living_sword")
 	public static final Item block = null;
 	public LivingSwordItem(AggregateModElements instance) {
-		super(instance, 6);
+		super(instance, 15);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class LivingSwordItem extends AggregateModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SoulOfDarknessItem.block, (int) (1)));
 			}
 		}, 3, -2.4f, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override

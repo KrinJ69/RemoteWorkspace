@@ -25,7 +25,7 @@ public class InfernoItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:inferno")
 	public static final Item block = null;
 	public InfernoItem(AggregateModElements instance) {
-		super(instance, 30);
+		super(instance, 20);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class InfernoItem extends AggregateModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SoulOfFlameItem.block, (int) (1)));
 			}
 		}, 3, -2f, new Item.Properties().group(AggregateArmorsItemGroup.tab).isImmuneToFire()) {
 			@Override
