@@ -78,7 +78,6 @@ public class BriskItem extends AggregateModElements.ModElement {
 				double z = entity.getPosZ();
 				if (selected) {
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
 					BriskToolInHandTickProcedure.executeProcedure($_dependencies);
 				}
 			}

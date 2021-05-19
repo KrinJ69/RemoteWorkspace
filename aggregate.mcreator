@@ -911,6 +911,42 @@
       "registry_name": "accessories_gui"
     },
     {
+      "name": "ArrowOfFlame",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arrow_of_flame"
+    },
+    {
+      "name": "CleanFlame",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clean_flame"
+    },
+    {
+      "name": "FlameBowRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_bow_recipe"
+    },
+    {
+      "name": "FlameBow",
+      "type": "gun",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_bow"
+    },
+    {
       "name": "Crusader",
       "type": "armor",
       "sortid": 80,
@@ -936,6 +972,7 @@
       "item.aggregate.soul_of_light": "Soul Of Light",
       "item.aggregate.clamor": "Clamor",
       "item.aggregate.steel_sword": "Steel Sword",
+      "item.aggregate.flame_bow": "Flame Bow",
       "itemGroup.tabaggregate_tools": "Aggregate Tools",
       "item.aggregate.flame_pickaxe": "Flame Pickaxe",
       "item.aggregate.frantic_sword": "Frantic Sword",
@@ -949,8 +986,9 @@
       "item.aggregate.crusader_boots": "Crusader Boots",
       "item.aggregate.living_sword": "Living Sword",
       "item.aggregate.steel_armor_helmet": "Steel Helmet",
-      "item.aggregate.giant_sword": "Giant Hammer",
+      "item.aggregate.giant_sword": "Giant Sword",
       "item.aggregate.steel_armor_leggings": "Steel Leggings",
+      "item.aggregate.clean_flame": "Clean Flame",
       "item.aggregate.steel_armor_boots": "Steel Boots",
       "item.aggregate.soul_of_darkness": "Soul Of Darkness",
       "item.aggregate.wrath": "Wrath",
@@ -966,6 +1004,7 @@
       "item.aggregate.magical_essence": "Magical Essence",
       "item.aggregate.bottle_with_essence": "Bottle With Essence",
       "item.aggregate.eternity_armor_armor_helmet": "Eternity Helmet",
+      "item.aggregate.arrow_of_flame": "Arrow Of Flame",
       "block.aggregate.steel_block": "Steel Block",
       "itemGroup.tabaggregate_armors": "Aggregate Combat",
       "item.aggregate.eternity_armor_armor_leggings": "Eternity Leggings",

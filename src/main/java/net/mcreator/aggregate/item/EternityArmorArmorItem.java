@@ -36,7 +36,7 @@ public class EternityArmorArmorItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:eternity_armor_armor_boots")
 	public static final Item boots = null;
 	public EternityArmorArmorItem(AggregateModElements instance) {
-		super(instance, 56);
+		super(instance, 27);
 	}
 
 	@Override
