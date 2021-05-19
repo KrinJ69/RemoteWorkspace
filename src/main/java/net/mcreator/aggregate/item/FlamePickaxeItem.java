@@ -27,7 +27,7 @@ public class FlamePickaxeItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:flame_pickaxe")
 	public static final Item block = null;
 	public FlamePickaxeItem(AggregateModElements instance) {
-		super(instance, 62);
+		super(instance, 13);
 	}
 
 	@Override

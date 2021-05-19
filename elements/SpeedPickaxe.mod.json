@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "placeholder",
+    "texture": "speedpickaxe",
     "customModelName": "Normal",
     "name": "Speed Pickaxe",
     "specialInfo": [],

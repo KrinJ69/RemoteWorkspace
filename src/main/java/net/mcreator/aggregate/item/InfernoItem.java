@@ -25,7 +25,7 @@ public class InfernoItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:inferno")
 	public static final Item block = null;
 	public InfernoItem(AggregateModElements instance) {
-		super(instance, 20);
+		super(instance, 30);
 	}
 
 	@Override
