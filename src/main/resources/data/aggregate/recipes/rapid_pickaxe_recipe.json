@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "1": {
       "item": "aggregate:soul_of_speed"
     },
+    "1": {
+      "item": "aggregate:soul_of_eternity"
+    },
     "2": {
-      "item": "minecraft:netherite_ingot"
+      "item": "aggregate:soul_of_speed"
     },
     "4": {
       "item": "minecraft:stick"
@@ -24,7 +24,7 @@
     }
   },
   "result": {
-    "item": "aggregate:speed_pickaxe",
+    "item": "aggregate:rapid_pickaxe",
     "count": 1
   }
 }

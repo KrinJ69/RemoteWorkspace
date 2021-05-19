@@ -13,7 +13,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class VampireSwordLifeStealProcedure extends AggregateModElements.ModElement {
 	public VampireSwordLifeStealProcedure(AggregateModElements instance) {
-		super(instance, 24);
+		super(instance, 42);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

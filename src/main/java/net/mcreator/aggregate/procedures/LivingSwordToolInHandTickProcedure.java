@@ -13,7 +13,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class LivingSwordToolInHandTickProcedure extends AggregateModElements.ModElement {
 	public LivingSwordToolInHandTickProcedure(AggregateModElements instance) {
-		super(instance, 25);
+		super(instance, 43);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

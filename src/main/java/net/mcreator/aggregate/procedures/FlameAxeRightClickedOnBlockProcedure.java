@@ -10,30 +10,30 @@ import net.mcreator.aggregate.AggregateMod;
 import java.util.Map;
 
 @AggregateModElements.ModElement.Tag
-public class FlamePickaxeRightClickedOnBlockProcedure extends AggregateModElements.ModElement {
-	public FlamePickaxeRightClickedOnBlockProcedure(AggregateModElements instance) {
-		super(instance, 73);
+public class FlameAxeRightClickedOnBlockProcedure extends AggregateModElements.ModElement {
+	public FlameAxeRightClickedOnBlockProcedure(AggregateModElements instance) {
+		super(instance, 79);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				AggregateMod.LOGGER.warn("Failed to load dependency x for procedure FlamePickaxeRightClickedOnBlock!");
+				AggregateMod.LOGGER.warn("Failed to load dependency x for procedure FlameAxeRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				AggregateMod.LOGGER.warn("Failed to load dependency y for procedure FlamePickaxeRightClickedOnBlock!");
+				AggregateMod.LOGGER.warn("Failed to load dependency y for procedure FlameAxeRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				AggregateMod.LOGGER.warn("Failed to load dependency z for procedure FlamePickaxeRightClickedOnBlock!");
+				AggregateMod.LOGGER.warn("Failed to load dependency z for procedure FlameAxeRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				AggregateMod.LOGGER.warn("Failed to load dependency world for procedure FlamePickaxeRightClickedOnBlock!");
+				AggregateMod.LOGGER.warn("Failed to load dependency world for procedure FlameAxeRightClickedOnBlock!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

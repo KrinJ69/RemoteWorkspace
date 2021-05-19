@@ -17,7 +17,7 @@ public class SteelShovelItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:steel_shovel")
 	public static final Item block = null;
 	public SteelShovelItem(AggregateModElements instance) {
-		super(instance, 4);
+		super(instance, 11);
 	}
 
 	@Override

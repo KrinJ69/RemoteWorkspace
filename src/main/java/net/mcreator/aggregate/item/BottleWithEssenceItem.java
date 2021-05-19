@@ -16,7 +16,7 @@ public class BottleWithEssenceItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:bottle_with_essence")
 	public static final Item block = null;
 	public BottleWithEssenceItem(AggregateModElements instance) {
-		super(instance, 37);
+		super(instance, 3);
 	}
 
 	@Override

@@ -10,16 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
         "value": "Items.STRING"
       },
       {
-        "value": "CUSTOM:SoulOfFlame"
+        "value": "Items.LEATHER"
       },
       {
         "value": ""
@@ -28,19 +22,25 @@
         "value": "Items.STRING"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.LEATHER"
       },
       {
         "value": "Items.STRING"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FlameBow"
+      "value": "CUSTOM:BackPack"
     },
-    "name": "flame_bow_recipe",
+    "name": "back_pack_recipe",
     "namespace": "mod"
   }
 }

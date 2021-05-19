@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "placeholder",
+    "texture": "backpack",
     "customModelName": "Normal",
-    "name": "Clean Flame",
+    "name": "Back Pack",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:AggregateItems"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -26,8 +26,14 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
-    "inventoryStackSize": 64
+    "guiBoundTo": "BackPackGui",
+    "inventorySize": 27,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "BackPackRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BackPackRightClickedInAir"
+    }
   }
 }

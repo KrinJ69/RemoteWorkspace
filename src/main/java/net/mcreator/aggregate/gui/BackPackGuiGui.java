@@ -36,11 +36,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AggregateModElements.ModElement.Tag
-public class DarkAltarGuiGui extends AggregateModElements.ModElement {
+public class BackPackGuiGui extends AggregateModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public DarkAltarGuiGui(AggregateModElements instance) {
-		super(instance, 51);
+	public BackPackGuiGui(AggregateModElements instance) {
+		super(instance, 85);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -51,12 +51,12 @@ public class DarkAltarGuiGui extends AggregateModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("dark_altar_gui"));
+			event.getRegistry().register(containerType.setRegistryName("back_pack_gui"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, DarkAltarGuiGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, BackPackGuiGuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -75,7 +75,7 @@ public class DarkAltarGuiGui extends AggregateModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(6);
+			this.internal = new ItemStackHandler(27);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -113,29 +113,67 @@ public class DarkAltarGuiGui extends AggregateModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 35) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 56) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 17) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 38) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 35) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 20) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 35) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 56) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 53) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 56) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 124, 35) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 61, 56) {
+			}));
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 79, 56) {
+			}));
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 97, 56) {
+			}));
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 25, 38) {
+			}));
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 25, 20) {
+			}));
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 43, 38) {
+			}));
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 20) {
+			}));
+			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 20) {
+			}));
+			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 20) {
+			}));
+			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 97, 20) {
+			}));
+			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 115, 20) {
+			}));
+			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 133, 20) {
+			}));
+			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 151, 20) {
+			}));
+			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 151, 38) {
+			}));
+			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 151, 56) {
+			}));
+			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 133, 56) {
+			}));
+			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 115, 56) {
+			}));
+			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 61, 38) {
+			}));
+			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 79, 38) {
+			}));
+			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 97, 38) {
+			}));
+			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 115, 38) {
+			}));
+			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 133, 38) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 3 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 3 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -154,18 +192,18 @@ public class DarkAltarGuiGui extends AggregateModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 6) {
-					if (!this.mergeItemStack(itemstack1, 6, this.inventorySlots.size(), true)) {
+				if (index < 27) {
+					if (!this.mergeItemStack(itemstack1, 27, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 6, false)) {
-					if (index < 6 + 27) {
-						if (!this.mergeItemStack(itemstack1, 6 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 27, false)) {
+					if (index < 27 + 27) {
+						if (!this.mergeItemStack(itemstack1, 27 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 6, 6 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 27, 27 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}

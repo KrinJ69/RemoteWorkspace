@@ -18,7 +18,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class SidiousLivingEntityIsHitWithToolProcedure extends AggregateModElements.ModElement {
 	public SidiousLivingEntityIsHitWithToolProcedure(AggregateModElements instance) {
-		super(instance, 41);
+		super(instance, 56);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

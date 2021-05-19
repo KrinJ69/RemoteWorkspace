@@ -29,7 +29,7 @@ public class SteelArmorItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:steel_armor_boots")
 	public static final Item boots = null;
 	public SteelArmorItem(AggregateModElements instance) {
-		super(instance, 10);
+		super(instance, 19);
 	}
 
 	@Override

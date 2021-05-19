@@ -17,7 +17,7 @@ public class SteelSwordItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:steel_sword")
 	public static final Item block = null;
 	public SteelSwordItem(AggregateModElements instance) {
-		super(instance, 9);
+		super(instance, 18);
 	}
 
 	@Override
