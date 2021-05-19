@@ -23,14 +23,11 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "SidiousRightClickedInAir"
-    },
-    "onRightClickedOnBlock": {
-      "name": "SidiousRightClickedInAir"
-    },
     "onEntityHitWith": {
       "name": "SidiousLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "SidiousToolInHandTick"
     }
   }
 }

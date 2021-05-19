@@ -17,7 +17,7 @@ public class SpeedPickaxeItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:speed_pickaxe")
 	public static final Item block = null;
 	public SpeedPickaxeItem(AggregateModElements instance) {
-		super(instance, 63);
+		super(instance, 14);
 	}
 
 	@Override

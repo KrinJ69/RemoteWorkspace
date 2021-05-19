@@ -603,12 +603,7 @@
       "ids": {},
       "registry_name": "brisk_tool_in_hand_tick",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -879,6 +874,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "SidiousToolInHandTick",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sidious_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AccessoriesOverlay",
+      "type": "overlay",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessories_overlay"
+    },
+    {
+      "name": "AccessoriesGui",
+      "type": "gui",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessories_gui"
     }
   ],
   "variable_elements": [],
