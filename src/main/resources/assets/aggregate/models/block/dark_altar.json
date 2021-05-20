@@ -1,8 +1,8 @@
 {
   "parent": "aggregate:custom/darkaltar",
   "textures": {
-    "all": "aggregate:blocks/steelblock",
-    "particle": "aggregate:blocks/steelblock",
+    "all": "aggregate:blocks/placeholderb",
+    "particle": "aggregate:blocks/placeholderb",
     "0": "aggregate:blocks/texture"
   }
 }

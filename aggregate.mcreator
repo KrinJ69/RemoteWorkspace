@@ -960,6 +960,23 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "CrusaderArmorWear",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crusader_armor_wear",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -986,7 +1003,7 @@
       "item.aggregate.crusader_boots": "Crusader Boots",
       "item.aggregate.living_sword": "Living Sword",
       "item.aggregate.steel_armor_helmet": "Steel Helmet",
-      "item.aggregate.giant_sword": "Giant Sword",
+      "item.aggregate.giant_sword": "Giant Hammer",
       "item.aggregate.steel_armor_leggings": "Steel Leggings",
       "item.aggregate.clean_flame": "Clean Flame",
       "item.aggregate.steel_armor_boots": "Steel Boots",
