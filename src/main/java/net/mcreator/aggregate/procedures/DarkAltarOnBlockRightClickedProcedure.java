@@ -33,7 +33,7 @@ import java.util.HashMap;
 @AggregateModElements.ModElement.Tag
 public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.ModElement {
 	public DarkAltarOnBlockRightClickedProcedure(AggregateModElements instance) {
-		super(instance, 56);
+		super(instance, 55);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -279,23 +279,7 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 				return ItemStack.EMPTY;
 			}
 		}.getItemStack((int) (2))).getItem() == new ItemStack(Items.DIAMOND, (int) (1)).getItem()))) {
-<<<<<<< HEAD
-			if (entity instanceof PlayerEntity) {
-				Container _current = ((PlayerEntity) entity).openContainer;
-				if (_current instanceof Supplier) {
-					Object invobj = ((Supplier) _current).get();
-					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(SidiousItem.block, (int) (1));
-						_setstack.setCount((int) 1);
-						((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-						_current.detectAndSendChanges();
-					}
-				}
-			}
-			if ((((new Object() {
-=======
 			if (((new Object() {
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -309,9 +293,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 					}
 					return ItemStack.EMPTY;
 				}
-<<<<<<< HEAD
-			}.getItemStack((int) (5))).getItem() == new ItemStack(SidiousItem.block, (int) (1)).getItem()) == (true))) {
-=======
 			}.getItemStack((int) (5))).getItem() == (ItemStack.EMPTY).getItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
@@ -325,7 +306,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 						}
 					}
 				}
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -463,23 +443,7 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 				return ItemStack.EMPTY;
 			}
 		}.getItemStack((int) (2))).getItem() == new ItemStack(Items.DIAMOND, (int) (1)).getItem()))) {
-<<<<<<< HEAD
-			if (entity instanceof PlayerEntity) {
-				Container _current = ((PlayerEntity) entity).openContainer;
-				if (_current instanceof Supplier) {
-					Object invobj = ((Supplier) _current).get();
-					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(BriskItem.block, (int) (1));
-						_setstack.setCount((int) 1);
-						((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-						_current.detectAndSendChanges();
-					}
-				}
-			}
-			if ((((new Object() {
-=======
 			if (((new Object() {
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -493,9 +457,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 					}
 					return ItemStack.EMPTY;
 				}
-<<<<<<< HEAD
-			}.getItemStack((int) (5))).getItem() == new ItemStack(BriskItem.block, (int) (1)).getItem()) == (true))) {
-=======
 			}.getItemStack((int) (5))).getItem() == (ItemStack.EMPTY).getItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
@@ -509,7 +470,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 						}
 					}
 				}
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -647,23 +607,7 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 				return ItemStack.EMPTY;
 			}
 		}.getItemStack((int) (2))).getItem() == new ItemStack(Items.DIAMOND, (int) (1)).getItem()))) {
-<<<<<<< HEAD
-			if (entity instanceof PlayerEntity) {
-				Container _current = ((PlayerEntity) entity).openContainer;
-				if (_current instanceof Supplier) {
-					Object invobj = ((Supplier) _current).get();
-					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(WrathItem.block, (int) (1));
-						_setstack.setCount((int) 1);
-						((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-						_current.detectAndSendChanges();
-					}
-				}
-			}
-			if ((((new Object() {
-=======
 			if (((new Object() {
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -677,9 +621,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 					}
 					return ItemStack.EMPTY;
 				}
-<<<<<<< HEAD
-			}.getItemStack((int) (5))).getItem() == new ItemStack(WrathItem.block, (int) (1)).getItem()) == (true))) {
-=======
 			}.getItemStack((int) (5))).getItem() == (ItemStack.EMPTY).getItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
@@ -693,7 +634,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 						}
 					}
 				}
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -831,23 +771,7 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 				return ItemStack.EMPTY;
 			}
 		}.getItemStack((int) (2))).getItem() == new ItemStack(SoulOfDarknessItem.block, (int) (1)).getItem()))) {
-<<<<<<< HEAD
-			if (entity instanceof PlayerEntity) {
-				Container _current = ((PlayerEntity) entity).openContainer;
-				if (_current instanceof Supplier) {
-					Object invobj = ((Supplier) _current).get();
-					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(SoulOfEternityItem.block, (int) (1));
-						_setstack.setCount((int) 1);
-						((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-						_current.detectAndSendChanges();
-					}
-				}
-			}
-			if ((((new Object() {
-=======
 			if (((new Object() {
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -861,9 +785,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 					}
 					return ItemStack.EMPTY;
 				}
-<<<<<<< HEAD
-			}.getItemStack((int) (5))).getItem() == new ItemStack(SoulOfEternityItem.block, (int) (1)).getItem()) == (true))) {
-=======
 			}.getItemStack((int) (5))).getItem() == (ItemStack.EMPTY).getItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
@@ -877,7 +798,6 @@ public class DarkAltarOnBlockRightClickedProcedure extends AggregateModElements.
 						}
 					}
 				}
->>>>>>> branch 'master' of https://github.com/KrinJ69/RemoteWorkspace.git
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {

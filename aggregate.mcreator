@@ -787,27 +787,6 @@
       "registry_name": "flame_pickaxe"
     },
     {
-      "name": "SpeedPickaxeToolInHandTick",
-      "type": "procedure",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "speed_pickaxe_tool_in_hand_tick",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
-      "name": "SpeedPickaxe",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "speed_pickaxe"
-    },
-    {
       "name": "FlamePickaxeRightClickedOnBlock",
       "type": "procedure",
       "sortid": 73,
@@ -844,15 +823,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "flame_pickaxe_recipe"
-    },
-    {
-      "name": "SpeedPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "speed_pickaxe_recipe"
     },
     {
       "name": "SidiousRightClickedInAir",
@@ -972,7 +942,6 @@
       "item.aggregate.soul_of_darkness": "Soul Of Darkness",
       "item.aggregate.wrath": "Wrath",
       "item.aggregate.reaper": "Reaper",
-      "item.aggregate.speed_pickaxe": "Speed Pickaxe",
       "item.aggregate.eternity_armor_armor_chestplate": "Eternity Chestplate",
       "item.aggregate.crusader_helmet": "Crusader Helmet",
       "itemGroup.tabaggregate_blocks": "Aggregate Blocks",
