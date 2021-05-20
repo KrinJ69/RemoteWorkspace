@@ -13,7 +13,7 @@ import net.mcreator.aggregate.AggregateModElements;
 @AggregateModElements.ModElement.Tag
 public class AggregateArmorsItemGroup extends AggregateModElements.ModElement {
 	public AggregateArmorsItemGroup(AggregateModElements instance) {
-		super(instance, 29);
+		super(instance, 47);
 	}
 
 	@Override

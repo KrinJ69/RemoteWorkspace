@@ -17,7 +17,7 @@ public class SteelAxeItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:steel_axe")
 	public static final Item block = null;
 	public SteelAxeItem(AggregateModElements instance) {
-		super(instance, 3);
+		super(instance, 10);
 	}
 
 	@Override

@@ -1,0 +1,30 @@
+{
+  "group": "aggregate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aggregate:soul_of_eternity"
+    },
+    "1": {
+      "item": "aggregate:soul_of_speed"
+    },
+    "2": {
+      "item": "aggregate:soul_of_speed"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aggregate:rapid_axe",
+    "count": 1
+  }
+}

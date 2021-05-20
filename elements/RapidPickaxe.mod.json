@@ -5,25 +5,21 @@
     "renderType": 0,
     "texture": "speedpickaxe",
     "customModelName": "Normal",
-    "name": "Speed Pickaxe",
+    "name": "Rapid Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AggregateTools"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 4,
-    "efficiency": 12.0,
+    "harvestLevel": 5,
+    "efficiency": 16.0,
     "attackSpeed": 1.0,
-    "enchantability": 14,
-    "damageVsEntity": 3.0,
-    "usageCount": 4000,
+    "enchantability": 13,
+    "damageVsEntity": 4.0,
+    "usageCount": 4251,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:SoulOfSpeed"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

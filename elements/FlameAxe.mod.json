@@ -1,0 +1,30 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "flameaxe",
+    "customModelName": "Normal",
+    "name": "Flame Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AggregateTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 6.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "FlameAxeRightClickedOnBlock"
+    }
+  }
+}

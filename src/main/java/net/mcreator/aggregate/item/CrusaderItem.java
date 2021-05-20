@@ -9,7 +9,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
@@ -20,6 +19,7 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.model.BipedModel;
 
+import net.mcreator.aggregate.itemgroup.AggregateArmorsItemGroup;
 import net.mcreator.aggregate.AggregateModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
@@ -36,7 +36,7 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:crusader_boots")
 	public static final Item boots = null;
 	public CrusaderItem(AggregateModElements instance) {
-		super(instance, 80);
+		super(instance, 30);
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 				return 0.1f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
@@ -100,7 +100,7 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 				return "aggregate:textures/models/armor/catexture_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("crusader_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
@@ -119,7 +119,7 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 				return "aggregate:textures/models/armor/catexture_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("crusader_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
@@ -137,7 +137,7 @@ public class CrusaderItem extends AggregateModElements.ModElement {
 				return "aggregate:textures/models/armor/catexture_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("crusader_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AggregateArmorsItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {

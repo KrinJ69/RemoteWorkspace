@@ -17,7 +17,7 @@ public class SteelPickaxeItem extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:steel_pickaxe")
 	public static final Item block = null;
 	public SteelPickaxeItem(AggregateModElements instance) {
-		super(instance, 2);
+		super(instance, 9);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import net.mcreator.aggregate.item.BottleWithEssenceItem;
 @AggregateModElements.ModElement.Tag
 public class MagicalEssenceRecipeBrewingRecipe extends AggregateModElements.ModElement {
 	public MagicalEssenceRecipeBrewingRecipe(AggregateModElements instance) {
-		super(instance, 37);
+		super(instance, 53);
 	}
 
 	@Override

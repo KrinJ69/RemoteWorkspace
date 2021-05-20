@@ -10,22 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:SoulOfSpeed"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:SoulOfEternity"
       },
       {
-        "value": "Items.STRING"
-      },
-      {
-        "value": "CUSTOM:SoulOfFlame"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STRING"
+        "value": "CUSTOM:SoulOfSpeed"
       },
       {
         "value": ""
@@ -34,13 +25,22 @@
         "value": "Items.STICK"
       },
       {
-        "value": "Items.STRING"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FlameBow"
+      "value": "CUSTOM:RapidPickaxe"
     },
-    "name": "flame_bow_recipe",
+    "name": "rapid_pickaxe_recipe",
     "namespace": "mod"
   }
 }

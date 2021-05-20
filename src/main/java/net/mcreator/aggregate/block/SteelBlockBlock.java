@@ -24,7 +24,7 @@ public class SteelBlockBlock extends AggregateModElements.ModElement {
 	@ObjectHolder("aggregate:steel_block")
 	public static final Block block = null;
 	public SteelBlockBlock(AggregateModElements instance) {
-		super(instance, 11);
+		super(instance, 28);
 	}
 
 	@Override

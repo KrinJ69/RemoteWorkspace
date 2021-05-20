@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:SoulOfEternity"
       },
       {
         "value": "CUSTOM:SoulOfSpeed"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:SoulOfSpeed"
       },
       {
         "value": "Items.STICK"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SpeedPickaxe"
+      "value": "CUSTOM:RapidAxe"
     },
-    "name": "speed_pickaxe_recipe",
+    "name": "rapid_axe_recipe",
     "namespace": "mod"
   }
 }

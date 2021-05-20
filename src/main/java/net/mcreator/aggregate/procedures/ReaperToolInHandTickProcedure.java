@@ -13,7 +13,7 @@ import java.util.Map;
 @AggregateModElements.ModElement.Tag
 public class ReaperToolInHandTickProcedure extends AggregateModElements.ModElement {
 	public ReaperToolInHandTickProcedure(AggregateModElements instance) {
-		super(instance, 54);
+		super(instance, 65);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
